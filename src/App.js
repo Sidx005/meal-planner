@@ -6,7 +6,9 @@ function App() {
   return (
     <CartProvider>
       <Header />
-      <main>
+        <main>
+          <h1>Cloned Repo Change</h1>
+          <Meals />
         <Meals />
       </main>
     </CartProvider>
