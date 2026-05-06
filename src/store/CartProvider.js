@@ -65,6 +65,7 @@ const CartProvider = (props) => {
   );
 
   const addItemToCartHandler = (item) => {
+    console.log('Item added to cart:',item)
     dispatchCartAction({ type: 'ADD', item: item });
   };
 
